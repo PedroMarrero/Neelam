@@ -1,45 +1,193 @@
-img.header{  
-    width: 100%;
+@font-face {
+    font-family: "Outfit";
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
 }
 
-.sobre-b{
-    display:flex;
-    border: none;
-    
-    padding-left: 50%;
-    
-    font-family: Outfit;
-    font-size: 40px;
+@font-face {
+    font-family: "Melodrama";
+    src: url(fonts/Melodrama-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*MENU*/
+
+nav {
+    background-color: rgba(168, 0, 255, 0.5);
+}
+
+nav ul img {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center; 
     text-align: center;
-    color: rgb(255, 0, 0);
-}    
-.yoga-b{
-    display:flex;
-    border: none;
-    
-    font-family: Outfit;
-    font-size: 40px;
-    padding-left: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Outfit";
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding-top: 40px;
+}
+
+/*BANNER 1*/
+
+.hero-section {
     text-align: center;
-    color: rgb(255, 0, 0);
-}    
-.mobi-b{
-    display:flex;
-    border: none;
-    
-    font-family: Outfit;
-    font-size: 40px;
-    padding-left: 50%;
+
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+
+    padding-top: 100px;
+
+    font-family: "Melodrama";
+}
+
+/*SECAO 1*/
+
+
+.basico {
+    padding: 40px 0;
     text-align: center;
-    color: rgb(255, 0, 0);
-}    
-.rec-b{
-    display:flex;
-    border: none;
-    
-    font-family: Outfit;
-    font-size: 40px;
-    padding-left: 50%;
+    background-color: rgba(168, 0, 255, 0.5);
+    margin-bottom: 30px;
+} 
+
+.basico h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
     text-align: center;
-    color: rgb(255, 0, 0);
-}    
+    background-color: rgba(168, 0, 255, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.video-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*SECAO 2*/
+
+.avancado h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(168, 0, 255, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*SECAO 3*/
+
+.plus h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(168, 0, 255, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
