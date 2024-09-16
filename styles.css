@@ -21,19 +21,13 @@ body {
 /*MENU*/
 
 nav {
-    background-color: rgba(157, 0, 256, 0.6);
+    background-color: rgb(76, 44, 128);
     
 }
 
 .logo {
     width: 200px;
-    height: 90px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-
-    display: flex;
-    align-items: center; 
-    text-align: center;
+    height: 105px;
     
 }
 
@@ -115,7 +109,7 @@ nav ul li a:hover{
 
     padding: 40px 0;
     text-align: center;
-    background-color: rgb(157, 0, 256, 0.6);
+    background-color: rgb(76, 44, 128);
     margin-bottom: 30px;
 
     font-family: "Outfit";
@@ -127,7 +121,6 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     gap: 15px;
-    
 }
 
 .video-box1 {
@@ -137,7 +130,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 
 .video-box1::before {
@@ -154,7 +147,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 
 .video-box2::before {
@@ -170,9 +163,6 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    border-radius: 10px;
 }
 
 .video-box3::before {
@@ -188,7 +178,6 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
 }
 
 .video-box4::before {
@@ -200,7 +189,8 @@ nav ul li a:hover{
 /*SECAO 2*/
 
 .img-av{
-    
+    display: flex;
+    width: 500px;
 }
 
 .avancado h2 {
@@ -209,7 +199,7 @@ nav ul li a:hover{
 
     padding: 40px 0;
     text-align: center;
-    background-color: rgb(157, 0, 256, 0.6);
+    background-color: rgb(76, 44, 128);
     margin-bottom: 30px;
 
     font-family: "Outfit";
@@ -223,14 +213,22 @@ nav ul li a:hover{
     gap: 15px;
 }
 
+.video-grid-av p{
+    display: flex;
+    margin: auto;
+    margin-left: -280px;
+    font-family: "Outfit";
+    font-size: 20px;
+    color: #ffffff;
+}
+
 .video-box {
-    width: 200px;
+    width: 500px;
     height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
 }
 
 .video-box::before {
@@ -238,14 +236,14 @@ nav ul li a:hover{
     color: white;
     font-size: 32px;
 }
+
 .video-box-2 {
-    width: 200px;
+    width: 500px;
     height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
 }
 
 .video-box-2::before {
@@ -262,7 +260,7 @@ nav ul li a:hover{
 
     padding: 40px 0;
     text-align: center;
-    background-color: rgb(157, 0, 256, 0.6);
+    background-color: rgb(76, 44, 128);
     margin-bottom: 30px;
 
     font-family: "Outfit";
@@ -314,7 +312,6 @@ nav ul li a:hover{
     font-size: 32px;
 }
 
-
 /*video do meio*/
 
 .video-box-meio {
@@ -347,4 +344,47 @@ nav ul li a:hover{
     content: "▶";
     color: white;
     font-size: 32px;
+}
+
+/*FOOTER*/
+
+.footer {
+    position: relative;
+    width: 100%;
+
+}
+
+.texto-footer {
+    position: absolute;
+    top: 75%;
+    /* Centraliza verticalmente */
+    left: 50%;
+    /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajusta a centralização */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+.footer h1 {
+    font-family: "Outfit";
+
+    text-align: center;
+
+    margin: 0;
+}
+
+.footer p {
+    font-family: "Outfit";
+
+    text-align: center;
+
+    margin: 0;
 }
