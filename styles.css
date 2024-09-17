@@ -31,6 +31,55 @@ nav {
     
 }
 
+nav {
+    background-color: rgba(149, 131, 177, 60%);
+
+    z-index: 10;
+
+    border-radius:55px;
+
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    height: 80px;
+}
+
+nav ul img {
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Outfit";
+    font-size: 24px;
+
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #9C528B;
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin: 0 100px;
+    padding-top: 25px;
+}
+
+
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -39,24 +88,56 @@ nav ul {
     font-family: "Outfit";
 }
 
-nav ul li {
-    margin: 0 100px;
 
-    padding-top: 40px;
-}
 
-nav ul li a{
+.botao1{
     color: white;
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
 }
 
-
-nav ul li a:hover{
+.botao1:hover{
     text-decoration: underline;
-    color: purple;
+    color: rgb(255, 123, 255);
 }
+
+.botao2{
+    color: white;
+    font-family: "Outfit";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao2:hover{
+    text-decoration: underline;
+    color: rgb(255, 123, 255);
+}
+
+.botao3{
+    color: rgb(255, 123, 255);
+    font-family: "Outfit";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao3:hover{
+    text-decoration: underline;
+    color: White;
+}
+
+.botao4{
+    color: white;
+    font-family: "Outfit";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao4:hover{
+    text-decoration: underline;
+    color: rgb(255, 123, 255);
+}
+
 
 /*BANNER 1*/
 
@@ -120,12 +201,21 @@ nav ul li a:hover{
 .video-grid {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    
+}
+
+.video-grid p{
+    display: flex;
+    margin: auto;
+    margin-left: -310px;
+    font-family: "Outfit";
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .video-box1 {
-    width: 160px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -141,8 +231,8 @@ nav ul li a:hover{
 }
 
 .video-box2 {
-    width: 160px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -157,8 +247,8 @@ nav ul li a:hover{
 }
 
 .video-box3 {
-    width: 160px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -172,8 +262,8 @@ nav ul li a:hover{
 } 
 
 .video-box4 {
-    width: 160px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -210,13 +300,12 @@ nav ul li a:hover{
 .video-grid-av{
     display: flex;
     justify-content: center;
-    gap: 15px;
 }
 
 .video-grid-av p{
     display: flex;
     margin: auto;
-    margin-left: -280px;
+    margin-left: -330px;
     font-family: "Outfit";
     font-size: 20px;
     color: #ffffff;
@@ -274,6 +363,47 @@ nav ul li a:hover{
     gap: 15px;
 }
 
+.card1{
+    font-family: "Outfit";
+    font-size: 25px;
+    color: white;
+
+    background-color: rgb(76, 44, 128);
+    height: 500px;
+    text-align: center;
+}
+
+.card1 p{
+    padding-top: 90px;
+}
+
+.card2{
+    font-family: "Outfit";
+    font-size: 25px;
+    color: white;
+
+    background-color: rgb(76, 44, 128);
+    height: 500px;
+    text-align: center;
+    
+}
+.card2 p{
+    padding-top: 90px;
+}
+
+.card3{
+    font-family: "Outfit";
+    font-size: 25px;
+    color: white;
+
+    background-color: rgb(76, 44, 128);
+    height: 500px;
+    text-align: center;
+}
+
+.card3 p{
+    padding-top: 90px;
+}
 
 /*
 .video-box {
@@ -303,7 +433,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 
 .video-box-esquerda::before {
@@ -321,7 +451,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 
 .video-box-meio::before {
@@ -337,7 +467,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 
 .video-box-direita::before {
