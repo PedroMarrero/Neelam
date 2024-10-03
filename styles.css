@@ -22,13 +22,13 @@ body {
 
 nav {
     background-color: rgb(76, 44, 128);
-    
+
 }
 
 .logo {
     width: 200px;
     height: 105px;
-    
+
 }
 
 nav {
@@ -36,7 +36,7 @@ nav {
 
     z-index: 10;
 
-    border-radius:55px;
+    border-radius: 55px;
 
     position: absolute;
     top: 5%;
@@ -45,7 +45,7 @@ nav {
 }
 
 nav ul img {
-    
+
     display: flex;
     align-items: center;
     text-align: center;
@@ -89,50 +89,50 @@ nav ul {
 
 
 
-.botao1{
+.botao1 {
     color: white;
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
 }
 
-.botao1:hover{
+.botao1:hover {
     text-decoration: underline;
     color: rgb(255, 123, 255);
 }
 
-.botao2{
+.botao2 {
     color: white;
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
 }
 
-.botao2:hover{
+.botao2:hover {
     text-decoration: underline;
     color: rgb(255, 123, 255);
 }
 
-.botao3{
+.botao3 {
     color: rgb(255, 123, 255);
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
 }
 
-.botao3:hover{
+.botao3:hover {
     text-decoration: underline;
     color: White;
 }
 
-.botao4{
+.botao4 {
     color: white;
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
 }
 
-.botao4:hover{
+.botao4:hover {
     text-decoration: underline;
     color: rgb(255, 123, 255);
 }
@@ -183,7 +183,7 @@ nav ul {
     font-weight: normal; 
 } */
 
-.texto{
+.texto {
     font-size: 45px;
     margin-bottom: 20px;
 
@@ -200,10 +200,10 @@ nav ul {
 .video-grid {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.video-grid p{
+.video-grid p {
     display: flex;
     margin: auto;
     margin-left: -310px;
@@ -219,14 +219,14 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .video-box1::before {
     content: "▶";
     color: white;
     font-size: 32px;
-    
+
 }
 
 .video-box2 {
@@ -236,7 +236,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .video-box2::before {
@@ -258,7 +258,7 @@ nav ul {
     content: "▶";
     color: white;
     font-size: 32px;
-} 
+}
 
 .video-box4 {
     width: 400px;
@@ -277,7 +277,7 @@ nav ul {
 
 /*SECAO 2*/
 
-.img-av{
+.img-av {
     display: flex;
     width: 500px;
 }
@@ -296,12 +296,12 @@ nav ul {
     color: white;
 }
 
-.video-grid-av{
+.video-grid-av {
     display: flex;
     justify-content: center;
 }
 
-.video-grid-av p{
+.video-grid-av p {
     display: flex;
     margin: auto;
     margin-left: -330px;
@@ -362,7 +362,7 @@ nav ul {
     gap: 15px;
 }
 
-.card1{
+.card1 {
     font-family: "Outfit";
     font-size: 25px;
     color: white;
@@ -372,11 +372,11 @@ nav ul {
     text-align: center;
 }
 
-.card1 p{
+.card1 p {
     padding-top: 90px;
 }
 
-.card2{
+.card2 {
     font-family: "Outfit";
     font-size: 25px;
     color: white;
@@ -384,13 +384,14 @@ nav ul {
     background-color: rgb(76, 44, 128);
     height: 500px;
     text-align: center;
-    
+
 }
-.card2 p{
+
+.card2 p {
     padding-top: 90px;
 }
 
-.card3{
+.card3 {
     font-family: "Outfit";
     font-size: 25px;
     color: white;
@@ -400,7 +401,7 @@ nav ul {
     text-align: center;
 }
 
-.card3 p{
+.card3 p {
     padding-top: 90px;
 }
 
@@ -432,7 +433,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .video-box-esquerda::before {
@@ -450,7 +451,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .video-box-meio::before {
@@ -466,7 +467,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .video-box-direita::before {
@@ -526,8 +527,12 @@ nav ul {
     }
 
     .texto {
-        font-size: 30px; 
-        padding: 20px 0;  
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .video-grid {
+        margin-left: 35px;
     }
 
     .video-grid p {
@@ -558,8 +563,8 @@ nav ul {
     }
 
     .avancado h2 {
-        font-size: 30px; 
-        padding: 20px 0;  
+        font-size: 30px;
+        padding: 20px 0;
     }
 
     .video-box {
@@ -575,8 +580,8 @@ nav ul {
     }
 
     .plus h2 {
-        font-size: 30px; 
-        padding: 20px 0;  
+        font-size: 30px;
+        padding: 20px 0;
     }
 
     .img-av {
@@ -584,4 +589,156 @@ nav ul {
         width: 500px;
         margin-right: 104px;
 
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    nav ul li {
+        margin: 0 30px;
+        padding-top: 25px;
+    }
+
+    .nav {
+        left: 15%;
+    }
+
+    .banner img {
+        width: 130%;
+    }
+
+    .banner h1 {
+        left: 62%;
+        font-size: 60px;
+    }
+
+    .logo {
+        width: 190px;
+    }
+
+    .texto {
+        font-size: 30px;
+        padding: 20px 0;
+        width: 940px;
+    }
+
+    .video-grid {
+        margin-left: 35px;
+    }
+
+    .video-grid p {
+        margin-left: -175px;
+        font-size: 20px;
+    }
+
+    .video-box1 {
+        width: 200px;
+        height: 100px;
+        margin-left: 125px;
+    }
+
+    .video-box2 {
+        width: 200px;
+        height: 100px;
+        margin-left: 125px;
+    }
+
+    .video-box3 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .video-box4 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .avancado h2 {
+        font-size: 30px;
+        padding: 20px 0;
+        width: 940px;
+    }
+
+    .video-box {
+        width: 250px;
+        height: 200px;
+        margin-left: 200px;
+    }
+
+    .video-box-2 {
+        width: 250px;
+        height: 200px;
+        margin-left: 200px;
+    }
+
+    .video-box {
+
+        margin-left: 130px;
+    }
+
+    .video-box-2 {
+
+        margin-left: 130px;
+    }
+
+    .video-grid-av p {
+        margin-left: -310px;
+        font-size: 30px;
+    }
+
+    .plus h2 {
+        font-size: 30px;
+        padding: 20px 0;
+        width: 940px;
+    }
+
+    .video-grid-ps {
+        margin-left: 20%;
+    }
+
+    .img-av {
+        display: flex;
+        width: 500px;
+        margin-right: 104px;
+
+    }
+
+    .video-box-esquerda {
+        width: 270px;
+        height: 200px;
+    }
+
+    .video-box-meio {
+        width: 270px;
+        height: 200px;
+    }
+
+    .video-box-direita {
+        width: 270px;
+        height: 200px;
+    }
+
+    .card1 p {
+        padding-top: 125px;
+    }
+
+    .card2 p {
+        padding-top: 125px;
+    }
+
+    .card3 p {
+        padding-top: 125px;
+    }
+
+    .footer img {
+        width: 120%;
+        height: auto;
+        display: block;
+    }
+    
+    .texto-footer {
+        top: 90%;
+        /* height: 50px; */
+    }
 }
