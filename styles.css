@@ -33,15 +33,13 @@ nav {
 
 nav {
     background-color: rgba(149, 131, 177, 60%);
-
     z-index: 10;
-
     border-radius: 55px;
-
     position: absolute;
     top: 5%;
-    left: 7%;
+    left: 9%;
     height: 80px;
+    width: 84%;
 }
 
 nav ul img {
@@ -494,6 +492,7 @@ nav ul {
     /* Ajusta a centralização */
     color: rgb(255, 255, 255);
     text-align: center;
+    
 }
 
 .footer img {
@@ -503,7 +502,7 @@ nav ul {
     display: block;
 }
 
-.footer h1 {
+.footer h2 {
     font-family: "Outfit";
 
     text-align: center;
@@ -524,6 +523,17 @@ nav ul {
     nav ul li {
         margin: 0 50px;
         padding-top: 25px;
+    }
+
+    nav {
+        background-color: rgba(149, 131, 177, 60%);
+        z-index: 10;
+        border-radius: 55px;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        height: 80px;
+        width: 79%;
     }
 
     .texto {
@@ -601,30 +611,30 @@ nav ul {
     }
 
     .nav {
-        left: 15%;
+        left: 132%;
     }
 
     .banner img {
-        width: 130%;
+        width: 342%;
     }
 
     .banner h1 {
-        left: 62%;
+        left: 64%;
         font-size: 60px;
     }
 
     .logo {
-        width: 190px;
+        width: 100px;
     }
 
     .texto {
         font-size: 30px;
         padding: 20px 0;
-        width: 940px;
+        width: 998px;
     }
 
     .video-grid {
-        margin-left: 35px;
+        margin-left: 55px;
     }
 
     .video-grid p {
@@ -657,7 +667,7 @@ nav ul {
     .avancado h2 {
         font-size: 30px;
         padding: 20px 0;
-        width: 940px;
+        width: 998px;
     }
 
     .video-box {
@@ -674,12 +684,12 @@ nav ul {
 
     .video-box {
 
-        margin-left: 130px;
+        margin-left: 150px;
     }
 
     .video-box-2 {
 
-        margin-left: 130px;
+        margin-left: 150px;
     }
 
     .video-grid-av p {
@@ -690,11 +700,11 @@ nav ul {
     .plus h2 {
         font-size: 30px;
         padding: 20px 0;
-        width: 940px;
+        width: 998px;
     }
 
     .video-grid-ps {
-        margin-left: 20%;
+        margin-left: 30%;
     }
 
     .img-av {
@@ -732,13 +742,90 @@ nav ul {
     }
 
     .footer img {
-        width: 120%;
+        width: 130%;
         height: auto;
         display: block;
     }
-    
+
+
+    .texto-footer h2 {
+        width: 460px;
+    }
+
     .texto-footer {
-        top: 90%;
-        /* height: 50px; */
+        left: 65%;
+        font-size: 12px;
     }
 }
+
+@media(max-width: 320px) {
+
+    .banner img {
+        width: 350%;
+    }
+
+    .nav {
+        left: 77%;
+        width: 205%;
+    }
+
+    .banner h1 {
+        left: 175%;
+        font-size: 60px;
+    }
+
+    .texto {
+        width: 350%;
+    }
+
+    .video-grid {
+        margin-left: 130%;
+    }
+
+    .video-box1{
+        margin-left: 268px;
+    }
+
+    .video-box2{
+        margin-left: 268px;
+    }
+
+    .video-box {
+        margin-left: 498px;
+    }
+
+    .video-box-2 {
+        margin-left: 498px;
+    }
+
+    .avancado h2 {
+        width: 350%;
+    }
+    
+
+    .video-grid-ps {
+        margin-left: 176%;
+    }
+
+    .plus h2 {
+        width: 350%;
+    }
+
+    .footer {
+        position: relative;
+        width: 300%;
+    }
+
+    .footer img {
+        width: 117%;
+        height: auto;
+        display: block;
+    }
+
+    .texto-footer {
+        left: 58.6%;
+        font-size: 12px;
+
+    }
+
+    }
