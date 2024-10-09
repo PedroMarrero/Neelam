@@ -26,8 +26,10 @@ nav {
 }
 
 .logo {
-    width: 200px;
-    height: 105px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
 
 }
 
@@ -36,10 +38,10 @@ nav {
     z-index: 10;
     border-radius: 55px;
     position: absolute;
-    top: 5%;
-    left: 9%;
-    height: 80px;
-    width: 84%;
+    top: 8%;
+    left: 6%;
+    height: 134px;
+    width: 90%;
 }
 
 nav ul img {
@@ -47,7 +49,7 @@ nav ul img {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: -15px;
+    margin-top: -30px;
 
 }
 
@@ -67,14 +69,14 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: #9C528B;
+    color: rgb(89, 12, 122);
     text-decoration: underline;
 }
 
 
 nav ul li {
     margin: 0 100px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 nav ul {
@@ -96,7 +98,7 @@ nav ul {
 
 .botao1:hover {
     text-decoration: underline;
-    color: rgb(255, 123, 255);
+    color: rgb(89, 12, 122);
 }
 
 .botao2 {
@@ -108,11 +110,11 @@ nav ul {
 
 .botao2:hover {
     text-decoration: underline;
-    color: rgb(255, 123, 255);
+    color: rgb(89, 12, 122);
 }
 
 .botao3 {
-    color: rgb(255, 123, 255);
+    color: rgb(89, 12, 122);
     font-family: "Outfit";
     font-size: 20px;
     text-decoration: none;
@@ -132,7 +134,7 @@ nav ul {
 
 .botao4:hover {
     text-decoration: underline;
-    color: rgb(255, 123, 255);
+    color: rgb(89, 12, 122);
 }
 
 
@@ -140,7 +142,6 @@ nav ul {
 
 .banner {
     text-align: center;
-
     position: relative;
 }
 
@@ -193,6 +194,11 @@ nav ul {
     font-family: "Outfit";
     font-weight: normal;
     color: white;
+}
+
+.img-bs {
+    display: flex;
+    width: 500px;
 }
 
 .video-grid {
@@ -479,42 +485,32 @@ nav ul {
 .footer {
     position: relative;
     width: 100%;
-
 }
 
 .texto-footer {
     position: absolute;
     top: 75%;
-    /* Centraliza verticalmente */
     left: 50%;
-    /* Centraliza horizontalmente */
     transform: translate(-50%, -50%);
-    /* Ajusta a centralização */
     color: rgb(255, 255, 255);
     text-align: center;
-    
 }
 
 .footer img {
     width: 100%;
     height: auto;
-
     display: block;
 }
 
 .footer h2 {
     font-family: "Outfit";
-
     text-align: center;
-
     margin: 0;
 }
 
 .footer p {
     font-family: "Outfit";
-
     text-align: center;
-
     margin: 0;
 }
 
@@ -522,7 +518,7 @@ nav ul {
 
     nav ul li {
         margin: 0 50px;
-        padding-top: 25px;
+        padding-top: 17px;
     }
 
     nav {
@@ -530,10 +526,19 @@ nav ul {
         z-index: 10;
         border-radius: 55px;
         position: absolute;
-        top: 5%;
+        top: 10%;
         left: 10%;
-        height: 80px;
+        height: 65px;
         width: 79%;
+    }
+
+    .logo {
+
+        max-width: 126px;
+        max-height: 132px;
+        width: auto;
+        height: auto;
+
     }
 
     .texto {
@@ -594,6 +599,13 @@ nav ul {
         padding: 20px 0;
     }
 
+    .img-bs {
+        display: flex;
+        width: 500px;
+        margin-right: 104px;
+
+    }
+
     .img-av {
         display: flex;
         width: 500px;
@@ -607,19 +619,20 @@ nav ul {
 
     nav ul li {
         margin: 0 30px;
-        padding-top: 25px;
+        padding-top: 17px;
     }
 
     .nav {
-        left: 132%;
+        width: 700px;
+        left: 72%;
     }
 
     .banner img {
-        width: 342%;
+        width: 230%;
     }
 
     .banner h1 {
-        left: 64%;
+        left: 115%;
         font-size: 60px;
     }
 
@@ -630,11 +643,11 @@ nav ul {
     .texto {
         font-size: 30px;
         padding: 20px 0;
-        width: 998px;
+        width: 230%;
     }
 
     .video-grid {
-        margin-left: 55px;
+        margin-left: 107%;
     }
 
     .video-grid p {
@@ -667,13 +680,7 @@ nav ul {
     .avancado h2 {
         font-size: 30px;
         padding: 20px 0;
-        width: 998px;
-    }
-
-    .video-box {
-        width: 250px;
-        height: 200px;
-        margin-left: 200px;
+        width: 230%;
     }
 
     .video-box-2 {
@@ -683,13 +690,11 @@ nav ul {
     }
 
     .video-box {
-
-        margin-left: 150px;
+        margin-left: 558px;
     }
 
     .video-box-2 {
-
-        margin-left: 150px;
+        margin-left: 558px;
     }
 
     .video-grid-av p {
@@ -700,17 +705,24 @@ nav ul {
     .plus h2 {
         font-size: 30px;
         padding: 20px 0;
-        width: 998px;
+        width: 230%;
     }
 
     .video-grid-ps {
-        margin-left: 30%;
+        margin-left: 115%;
+    }
+
+    .img-bs {
+        display: flex;
+        width: 500px;
+        margin-right: 104px;
+
     }
 
     .img-av {
         display: flex;
         width: 500px;
-        margin-right: 104px;
+        margin-right: -100px;
 
     }
 
@@ -742,31 +754,39 @@ nav ul {
     }
 
     .footer img {
-        width: 130%;
+        width: 230%;
         height: auto;
         display: block;
     }
 
+    .texto-footer {
+        left: 115%;
+        padding-top: 44px;
+    }
 
     .texto-footer h2 {
         width: 460px;
-    }
-
-    .texto-footer {
-        left: 65%;
-        font-size: 12px;
+        font-size: 30px;
     }
 }
 
 @media(max-width: 320px) {
 
     .banner img {
-        width: 350%;
+        width: 351%;
+    }
+
+    .logo {
+        max-width: 140px;
+        max-height: 160px;
+        width: auto;
+        height: auto;
     }
 
     .nav {
-        left: 77%;
-        width: 205%;
+        top: 39px;
+        left: 70%;
+        width: 223%;
     }
 
     .banner h1 {
@@ -775,57 +795,80 @@ nav ul {
     }
 
     .texto {
-        width: 350%;
+        width: 351%;
     }
 
     .video-grid {
         margin-left: 130%;
     }
 
-    .video-box1{
+    .video-box1 {
         margin-left: 268px;
     }
 
-    .video-box2{
+    .video-box2 {
         margin-left: 268px;
     }
 
     .video-box {
-        margin-left: 498px;
+        margin-left: 300px;
     }
 
     .video-box-2 {
-        margin-left: 498px;
+        margin-left: 300px;
     }
 
     .avancado h2 {
-        width: 350%;
+        width: 351%;
     }
-    
 
     .video-grid-ps {
         margin-left: 176%;
+        margin-bottom: 122px;
     }
 
     .plus h2 {
         width: 350%;
-    }
-
-    .footer {
-        position: relative;
-        width: 300%;
+        margin-bottom: 125px;
     }
 
     .footer img {
-        width: 117%;
+        width: 351%;
         height: auto;
         display: block;
     }
 
+
+    .texto-footer h2 {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 18px;
+    }
+
     .texto-footer {
-        left: 58.6%;
-        font-size: 12px;
-
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+        left: 176%;
+        padding-top: 22px;
+        font-size: 15px;
     }
+}
+/* 
+.footer img {
+    width: 230%;
+    height: auto;
+    display: block;
+}
 
-    }
+.texto-footer {
+    left: 115%;
+
+}
+
+.texto-footer h2 {
+    width: 460px;
+    font-size: 30px;
+} */
